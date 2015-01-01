@@ -12,10 +12,14 @@ public class LoginSuccessActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		this.setTitle("登录成功");
+		this.setTitle("登录成功1");
 		TextView textView = new TextView(LoginSuccessActivity.this);
 		textView.setWidth(100);
 		textView.setHeight(100);
+		textView.setText("success");
+		textView.setText("success");
+		textView.setText("success");
+		textView.setText("success");
 		textView.setText("success");
 		//textView.d
 	}
